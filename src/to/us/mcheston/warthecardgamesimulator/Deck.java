@@ -1,4 +1,4 @@
-package to.us.mcheston.warthecardgame;
+package to.us.mcheston.warthecardgamesimulator;
 /* 
  * This class will build each deck object.
  * This will set the values of each card and store them in a deck of cards.

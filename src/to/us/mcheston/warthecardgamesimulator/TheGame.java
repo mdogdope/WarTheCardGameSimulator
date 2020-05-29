@@ -1,4 +1,4 @@
-package to.us.mcheston.warthecardgame;
+package to.us.mcheston.warthecardgamesimulator;
 /*
  * First class to run.
  * Handles the gameplay and decides who wins and send them the cards.

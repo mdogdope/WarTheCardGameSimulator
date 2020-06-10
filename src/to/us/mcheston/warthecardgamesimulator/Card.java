@@ -15,7 +15,7 @@ public class Card {
 	
 	private Map<String, Character> info = new HashMap<String, Character>(); //official value and suit of card
 	
-	//sets the values for the card.
+	//sets the values for the card, upon creation.
 	public Card(char r, char s) {
 		//Check if passed parameter is valid
 		if(!posRank.contains(r)) {

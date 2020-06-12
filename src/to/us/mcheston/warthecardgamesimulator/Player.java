@@ -18,7 +18,13 @@ public class Player {
 	private Integer id; //The Id number for each player
 	private List<Card> hand; //This List will be the players hand.
 	
-	//A constructor for the class.
+	//A constructor for the class for players with no name sent.
+	public Player() {
+		this.id = count.incrementAndGet();
+		this.name = "player" + this.id.toString();
+	}
+	
+	//A constructor for the class, that lets user set the name.
 	public Player(String name) {
 		this.name = name;
 		this.id = count.incrementAndGet();
@@ -49,5 +55,13 @@ public class Player {
 	//Method to return the count of cards in hand
 	public Integer getHandSize() {
 		return hand.size();
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public Integer getId() {
+		return this.id;
 	}
 }

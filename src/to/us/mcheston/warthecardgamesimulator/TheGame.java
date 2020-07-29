@@ -1,14 +1,13 @@
 package to.us.mcheston.warthecardgamesimulator;
+
 /*
- * First class to run.
- * Handles the gameplay and decides who wins and send them the cards.
+ * Handles the gameplay and decides who wins each round and send them the cards.
  * Tracks each player and checks if there is a winner.
- * Output status updates to the console.
  */
 public class TheGame {
-
-	public static void main(String[] args) {
-
-	}
-
+//	int recommend = (int)Math.ceil(26/(52/playerCount));
+	
+	Integer players;
+	Integer decks;
+	
 }
